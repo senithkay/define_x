@@ -12,7 +12,7 @@ export function V0Landing() {
         <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between">
           <Link className="flex items-center gap-2" href="#">
             <CodeIcon className="h-6 w-6"/>
-            <span className="text-xl font-bold">Acme Solutions</span>
+            <span className="text-xl font-bold">DefineX</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link className="hover:underline" href="#">
@@ -45,7 +45,7 @@ export function V0Landing() {
             <div className="max-w-md space-y-4">
               <h1 className="text-4xl font-bold">Innovative Software Solutions</h1>
               <p className="text-gray-300">
-                Acme Solutions provides cutting-edge software solutions to help businesses thrive in the digital age.
+                DefineX provides cutting-edge software solutions to help businesses thrive in the digital age.
               </p>
               <div className="flex gap-4">
                 <Button>Learn More</Button>
@@ -68,7 +68,7 @@ export function V0Landing() {
             <div className="max-w-5xl mx-auto space-y-8 text-center">
               <h2 className="text-3xl font-bold">Our Services</h2>
               <p className="text-gray-600">
-                Acme Solutions offers a wide range of software services to meet your business needs.
+                DefineX offers a wide range of software services to meet your business needs.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
@@ -163,7 +163,7 @@ export function V0Landing() {
           <section className="py-20 px-6 md:px-12" id="team">
             <div className="max-w-5xl mx-auto space-y-8 text-center">
               <h2 className="text-3xl font-bold">Our Team</h2>
-              <p className="text-gray-600">Meet the talented individuals who make Acme Solutions a success.</p>
+              <p className="text-gray-600">Meet the talented individuals who make DefineX a success.</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <Avatar>
@@ -195,8 +195,7 @@ export function V0Landing() {
           <section className="bg-gray-100 py-20 px-6 md:px-12" id="testimonials">
             <div className="max-w-5xl mx-auto space-y-8 text-center">
               <h2 className="text-3xl font-bold">What Our Clients Say</h2>
-              <p className="text-gray-600">Hear from our satisfied clients about their experience with Acme
-                Solutions.</p>
+              <p className="text-gray-600">Hear from our satisfied clients about their experience with DefineX.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <div className="flex items-center gap-4">
@@ -206,11 +205,11 @@ export function V0Landing() {
                     </Avatar>
                     <div>
                       <h3 className="text-xl font-bold">John Doe</h3>
-                      <p className="text-gray-600">CEO, Acme Corp</p>
+                      <p className="text-gray-600">CEO, DefineX</p>
                     </div>
                   </div>
                   <p className="text-gray-600 mt-4">
-                    {' "Acme Solutions has been a game-changer for our business. Their team\\n delivered a custom solution\n' +
+                    {' "DefineX has been a game-changer for our business. Their team\\n delivered a custom solution\n' +
                         '                  that exceeded our expectations and\\n helped us streamline our operations."'}
                   </p>
                 </div>
@@ -222,11 +221,11 @@ export function V0Landing() {
                     </Avatar>
                     <div>
                       <h3 className="text-xl font-bold">Jane Smith</h3>
-                      <p className="text-gray-600">CTO, Acme Corp</p>
+                      <p className="text-gray-600">CTO, DefineX</p>
                     </div>
                   </div>
                   <p className="text-gray-600 mt-4">
-                    {' "I\'ve worked with several software companies, but Acme Solutions\\n stands out for their exceptional\n' +
+                    {' "I\'ve worked with several software companies, but DefineX\\n stands out for their exceptional\n' +
                         '                  customer service and technical\\n expertise. They truly understand our business needs."'}
                   </p>
                 </div>
@@ -238,11 +237,11 @@ export function V0Landing() {
                     </Avatar>
                     <div>
                       <h3 className="text-xl font-bold">Michael Kim</h3>
-                      <p className="text-gray-600">CIO, Acme Corp</p>
+                      <p className="text-gray-600">CIO, DefineX</p>
                     </div>
                   </div>
                   <p className="text-gray-600 mt-4">
-                    {'  "Acme Solutions has been a true partner in our digital transformation\\n journey. Their team\'s\n' +
+                    {'  "DefineX has been a true partner in our digital transformation\\n journey. Their team\'s\n' +
                         '                  dedication and expertise have been invaluable\\n in helping us achieve our business goals."'}
                   </p>
                 </div>
@@ -252,7 +251,7 @@ export function V0Landing() {
           <section className="py-20 px-6 md:px-12" id="features">
             <div className="max-w-5xl mx-auto space-y-8 text-center">
               <h2 className="text-3xl font-bold">Key Features</h2>
-              <p className="text-gray-600">Discover the key features that make Acme Solutions stand out.</p>
+              <p className="text-gray-600">Discover the key features that make DefineX stand out.</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <RocketIcon className="h-8 w-8 text-gray-900"/>
@@ -295,7 +294,7 @@ export function V0Landing() {
           </section>
           <section className="py-20 px-6 md:px-12" id="about">
             <div className="max-w-5xl mx-auto space-y-8 text-center">
-              <h2 className="text-3xl font-bold">About Acme Solutions</h2>
+              <h2 className="text-3xl font-bold">About DefineX</h2>
               <p className="text-gray-600">
                 Learn more about our company and our mission to provide innovative software solutions.
               </p>
@@ -303,7 +302,7 @@ export function V0Landing() {
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <h3 className="text-xl font-bold">Our Mission</h3>
                   <p className="text-gray-600 mt-2">
-                    At Acme Solutions, our mission is to empower businesses with cutting-edge software solutions that
+                    At DefineX, our mission is to empower businesses with cutting-edge software solutions that
                     drive growth and innovation. We are dedicated to delivering exceptional results and building long
                   </p>
                 </div>
@@ -312,7 +311,7 @@ export function V0Landing() {
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <h3 className="text-xl font-bold">Our Goal</h3>
                   <p className="text-gray-600 mt-2">
-                    At Acme Solutions, our mission is to empower businesses with cutting-edge software solutions that
+                    At DefineX, our mission is to empower businesses with cutting-edge software solutions that
                     drive growth and innovation. We are dedicated to delivering exceptional results and building long
                   </p>
                 </div>
