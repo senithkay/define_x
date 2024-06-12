@@ -24,16 +24,16 @@ export function V0Landing() {
             <Link className="hover:underline" href="#">
               Portfolio
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="../team">
               Team
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="">
               Features
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="../contactUs">
               Contact
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="../aboutUs">
               About
             </Link>
           </nav>
