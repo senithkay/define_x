@@ -150,7 +150,17 @@ export function V0Landing() {
           <div className="max-w-5xl mx-auto space-y-8 text-center">
             <h2 className="text-3xl font-bold">Our Team</h2>
             <p className="text-gray-600">Meet the talented individuals who make DefineX a success.</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <Fadeincomponent>
+                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                  <Avatar>
+                    <AvatarImage src="/team-member-1.jpg" />
+                    <AvatarFallback>JD</AvatarFallback>
+                  </Avatar>
+                  <h3 className="text-xl font-bold mt-4">John Doe</h3>
+                  <p className="text-gray-600 mt-2">CEO</p>
+                </div>
+              </Fadeincomponent>
               <Fadeincomponent>
                 <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                   <Avatar>
@@ -310,8 +320,6 @@ export function V0Landing() {
                   drive growth and innovation. We are dedicated to delivering exceptional results and building long
                 </p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white rounded-lg shadow-lg p-6 text-left">
                 <h3 className="text-xl font-bold">Our Goal</h3>
                 <p className="text-gray-600 mt-2">
@@ -320,6 +328,7 @@ export function V0Landing() {
                 </p>
               </div>
             </div>
+           
           </div>
         </section>
       </main>
