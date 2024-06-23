@@ -5,6 +5,7 @@ import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { JSX, SVGProps } from "react"
+import Fadeincomponent from "@/components/inhouse/fadeincomponent";
 
 export function V0Landing() {
   return (
@@ -71,28 +72,36 @@ export function V0Landing() {
                 DefineX offers a wide range of software services to meet your business needs.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <CodeIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Custom Development</h3>
-                  <p className="text-gray-600 mt-2">
-                    Our team of experienced developers can create custom software solutions tailored to your specific
-                    requirements.
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <TabletsIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Web Development</h3>
-                  <p className="text-gray-600 mt-2">
-                    We specialize in building responsive and user-friendly websites that drive business growth.
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <DatabaseIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Database Solutions</h3>
-                  <p className="text-gray-600 mt-2">
-                    Our database experts can help you design, implement, and optimize your data infrastructure.
-                  </p>
-                </div>
+                  <Fadeincomponent>
+                      <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                          <CodeIcon className="h-8 w-8 text-gray-900"/>
+                          <h3 className="text-xl font-bold mt-4">Custom Development</h3>
+                          <p className="text-gray-600 mt-2">
+                              Our team of experienced developers can create custom software solutions tailored to your
+                              specific
+                              requirements.
+                          </p>
+                      </div>
+                  </Fadeincomponent>
+                  <Fadeincomponent>
+                      <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                          <TabletsIcon className="h-8 w-8 text-gray-900"/>
+                          <h3 className="text-xl font-bold mt-4">Web Development</h3>
+                          <p className="text-gray-600 mt-2">
+                              We specialize in building responsive and user-friendly websites that drive business
+                              growth.
+                          </p>
+                      </div>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <DatabaseIcon className="h-8 w-8 text-gray-900"/>
+                    <h3 className="text-xl font-bold mt-4">Database Solutions</h3>
+                    <p className="text-gray-600 mt-2">
+                      Our database experts can help you design, implement, and optimize your data infrastructure.
+                    </p>
+                  </div>
+                </Fadeincomponent>
               </div>
             </div>
           </section>
@@ -103,60 +112,66 @@ export function V0Landing() {
                 {'Check out some of our recent projects and the impact we\'ve made for our clients.'}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <img
-                      alt="Project 1"
-                      className="w-full h-48 object-cover"
-                      height={300}
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "400/300",
-                        objectFit: "cover",
-                      }}
-                      width={400}
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold">Project 1</h3>
-                    <p className="text-gray-600 mt-2">A custom e-commerce platform that increased sales by 30%.</p>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img
+                        alt="Project 1"
+                        className="w-full h-48 object-cover"
+                        height={300}
+                        src="/placeholder.svg"
+                        style={{
+                          aspectRatio: "400/300",
+                          objectFit: "cover",
+                        }}
+                        width={400}
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold">Project 1</h3>
+                      <p className="text-gray-600 mt-2">A custom e-commerce platform that increased sales by 30%.</p>
+                    </div>
                   </div>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <img
-                      alt="Project 2"
-                      className="w-full h-48 object-cover"
-                      height={300}
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "400/300",
-                        objectFit: "cover",
-                      }}
-                      width={400}
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold">Project 2</h3>
-                    <p className="text-gray-600 mt-2">{'A mobile app that streamlined the client\'s internal\n' +
-                        '                      operations.'}</p>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img
+                        alt="Project 2"
+                        className="w-full h-48 object-cover"
+                        height={300}
+                        src="/placeholder.svg"
+                        style={{
+                          aspectRatio: "400/300",
+                          objectFit: "cover",
+                        }}
+                        width={400}
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold">Project 2</h3>
+                      <p className="text-gray-600 mt-2">{'A mobile app that streamlined the client\'s internal\n' +
+                          '                      operations.'}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <img
-                      alt="Project 3"
-                      className="w-full h-48 object-cover"
-                      height={300}
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "400/300",
-                        objectFit: "cover",
-                      }}
-                      width={400}
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold">Project 3</h3>
-                    <p className="text-gray-600 mt-2">
-                      A data analytics platform that provided valuable insights for the client.
-                    </p>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img
+                        alt="Project 3"
+                        className="w-full h-48 object-cover"
+                        height={300}
+                        src="/placeholder.svg"
+                        style={{
+                          aspectRatio: "400/300",
+                          objectFit: "cover",
+                        }}
+                        width={400}
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold">Project 3</h3>
+                      <p className="text-gray-600 mt-2">
+                        A data analytics platform that provided valuable insights for the client.
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </Fadeincomponent>
               </div>
             </div>
           </section>
@@ -165,30 +180,36 @@ export function V0Landing() {
               <h2 className="text-3xl font-bold">Our Team</h2>
               <p className="text-gray-600">Meet the talented individuals who make DefineX a success.</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <Avatar>
-                    <AvatarImage src="/team-member-1.jpg"/>
-                    <AvatarFallback>JD</AvatarFallback>
-                  </Avatar>
-                  <h3 className="text-xl font-bold mt-4">John Doe</h3>
-                  <p className="text-gray-600 mt-2">CEO</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <Avatar>
-                    <AvatarImage src="/team-member-2.jpg"/>
-                    <AvatarFallback>JS</AvatarFallback>
-                  </Avatar>
-                  <h3 className="text-xl font-bold mt-4">Jane Smith</h3>
-                  <p className="text-gray-600 mt-2">CTO</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <Avatar>
-                    <AvatarImage src="/team-member-3.jpg"/>
-                    <AvatarFallback>MK</AvatarFallback>
-                  </Avatar>
-                  <h3 className="text-xl font-bold mt-4">Michael Kim</h3>
-                  <p className="text-gray-600 mt-2">Lead Developer</p>
-                </div>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <Avatar>
+                      <AvatarImage src="/team-member-1.jpg"/>
+                      <AvatarFallback>JD</AvatarFallback>
+                    </Avatar>
+                    <h3 className="text-xl font-bold mt-4">John Doe</h3>
+                    <p className="text-gray-600 mt-2">CEO</p>
+                  </div>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <Avatar>
+                      <AvatarImage src="/team-member-2.jpg"/>
+                      <AvatarFallback>JS</AvatarFallback>
+                    </Avatar>
+                    <h3 className="text-xl font-bold mt-4">Jane Smith</h3>
+                    <p className="text-gray-600 mt-2">CTO</p>
+                  </div>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <Avatar>
+                      <AvatarImage src="/team-member-3.jpg"/>
+                      <AvatarFallback>MK</AvatarFallback>
+                    </Avatar>
+                    <h3 className="text-xl font-bold mt-4">Michael Kim</h3>
+                    <p className="text-gray-600 mt-2">Lead Developer</p>
+                  </div>
+                </Fadeincomponent>
               </div>
             </div>
           </section>
@@ -197,54 +218,60 @@ export function V0Landing() {
               <h2 className="text-3xl font-bold">What Our Clients Say</h2>
               <p className="text-gray-600">Hear from our satisfied clients about their experience with DefineX.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <div className="flex items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="/client-1.jpg"/>
-                      <AvatarFallback>JD</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-xl font-bold">John Doe</h3>
-                      <p className="text-gray-600">CEO, DefineX</p>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <div className="flex items-center gap-4">
+                      <Avatar>
+                        <AvatarImage src="/client-1.jpg"/>
+                        <AvatarFallback>JD</AvatarFallback>
+                      </Avatar>
+                      <div>
+                        <h3 className="text-xl font-bold">John Doe</h3>
+                        <p className="text-gray-600">CEO, DefineX</p>
+                      </div>
                     </div>
+                    <p className="text-gray-600 mt-4">
+                      {' "DefineX has been a game-changer for our business. Their team\\n delivered a custom solution\n' +
+                          '                  that exceeded our expectations and\\n helped us streamline our operations."'}
+                    </p>
                   </div>
-                  <p className="text-gray-600 mt-4">
-                    {' "DefineX has been a game-changer for our business. Their team\\n delivered a custom solution\n' +
-                        '                  that exceeded our expectations and\\n helped us streamline our operations."'}
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <div className="flex items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="/client-2.jpg"/>
-                      <AvatarFallback>JS</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-xl font-bold">Jane Smith</h3>
-                      <p className="text-gray-600">CTO, DefineX</p>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <div className="flex items-center gap-4">
+                      <Avatar>
+                        <AvatarImage src="/client-2.jpg"/>
+                        <AvatarFallback>JS</AvatarFallback>
+                      </Avatar>
+                      <div>
+                        <h3 className="text-xl font-bold">Jane Smith</h3>
+                        <p className="text-gray-600">CTO, DefineX</p>
+                      </div>
                     </div>
+                    <p className="text-gray-600 mt-4">
+                      {' "I\'ve worked with several software companies, but DefineX\\n stands out for their exceptional\n' +
+                          '                  customer service and technical\\n expertise. They truly understand our business needs."'}
+                    </p>
                   </div>
-                  <p className="text-gray-600 mt-4">
-                    {' "I\'ve worked with several software companies, but DefineX\\n stands out for their exceptional\n' +
-                        '                  customer service and technical\\n expertise. They truly understand our business needs."'}
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <div className="flex items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="/client-3.jpg"/>
-                      <AvatarFallback>MK</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-xl font-bold">Michael Kim</h3>
-                      <p className="text-gray-600">CIO, DefineX</p>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <div className="flex items-center gap-4">
+                      <Avatar>
+                        <AvatarImage src="/client-3.jpg"/>
+                        <AvatarFallback>MK</AvatarFallback>
+                      </Avatar>
+                      <div>
+                        <h3 className="text-xl font-bold">Michael Kim</h3>
+                        <p className="text-gray-600">CIO, DefineX</p>
+                      </div>
                     </div>
+                    <p className="text-gray-600 mt-4">
+                      {'  "DefineX has been a true partner in our digital transformation\\n journey. Their team\'s\n' +
+                          '                  dedication and expertise have been invaluable\\n in helping us achieve our business goals."'}
+                    </p>
                   </div>
-                  <p className="text-gray-600 mt-4">
-                    {'  "DefineX has been a true partner in our digital transformation\\n journey. Their team\'s\n' +
-                        '                  dedication and expertise have been invaluable\\n in helping us achieve our business goals."'}
-                  </p>
-                </div>
+                </Fadeincomponent>
               </div>
             </div>
           </section>
@@ -253,28 +280,34 @@ export function V0Landing() {
               <h2 className="text-3xl font-bold">Key Features</h2>
               <p className="text-gray-600">Discover the key features that make DefineX stand out.</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <RocketIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Rapid Deployment</h3>
-                  <p className="text-gray-600 mt-2">
-                    Our streamlined deployment process ensures your software is up and running in no time.
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <ShieldIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Robust Security</h3>
-                  <p className="text-gray-600 mt-2">
-                    We prioritize the security of your data with advanced encryption and access controls.
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-left">
-                  <ScalingIcon className="h-8 w-8 text-gray-900"/>
-                  <h3 className="text-xl font-bold mt-4">Scalable Solutions</h3>
-                  <p className="text-gray-600 mt-2">
-                    Our software solutions are designed to scale with your business, ensuring they grow alongside your
-                    needs.
-                  </p>
-                </div>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <RocketIcon className="h-8 w-8 text-gray-900"/>
+                    <h3 className="text-xl font-bold mt-4">Rapid Deployment</h3>
+                    <p className="text-gray-600 mt-2">
+                      Our streamlined deployment process ensures your software is up and running in no time.
+                    </p>
+                  </div>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <ShieldIcon className="h-8 w-8 text-gray-900"/>
+                    <h3 className="text-xl font-bold mt-4">Robust Security</h3>
+                    <p className="text-gray-600 mt-2">
+                      We prioritize the security of your data with advanced encryption and access controls.
+                    </p>
+                  </div>
+                </Fadeincomponent>
+                <Fadeincomponent>
+                  <div className="bg-white rounded-lg shadow-lg p-6 text-left">
+                    <ScalingIcon className="h-8 w-8 text-gray-900"/>
+                    <h3 className="text-xl font-bold mt-4">Scalable Solutions</h3>
+                    <p className="text-gray-600 mt-2">
+                      Our software solutions are designed to scale with your business, ensuring they grow alongside your
+                      needs.
+                    </p>
+                  </div>
+                </Fadeincomponent>
               </div>
             </div>
           </section>
