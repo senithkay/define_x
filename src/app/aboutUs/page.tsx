@@ -76,8 +76,9 @@ export default function aboutUs() {
           <div>
             <h3 className="text-2xl font-bold">Our Services</h3>
             <p className="mt-4 text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We offer a comprehensive suite of web development services to help your business thrive online. From
-              custom website design and development to ongoing maintenance and support, we've got you covered.
+              {`We offer a comprehensive suite of web development services to help your business thrive online. From
+              custom website design and development to ongoing maintenance and support, we've got you covered.`}
+
             </p>
             <ul className="mt-6 grid gap-4">
               <li className="flex items-center gap-2">
@@ -115,8 +116,8 @@ export default function aboutUs() {
         <div className="mt-12 flex flex-col items-center justify-center gap-4 lg:mt-16">
           <h3 className="text-2xl font-bold">Ready to get started?</h3>
           <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Let our team of web development experts help you build a stunning, high-performing website that drives
-            results for your business.
+            {`Let our team of web development experts help you build a stunning, high-performing website that drives
+            results for your business.`}
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
             <Link
