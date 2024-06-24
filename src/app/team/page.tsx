@@ -18,9 +18,9 @@ export default function Component() {
                 Meet the Experts Behind Your Web Development
               </h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-                Our team of seasoned web developers are passionate about creating exceptional digital experiences. With
+                {`Our team of seasoned web developers are passionate about creating exceptional digital experiences. With
                 years of industry experience, we're dedicated to delivering high-quality, custom-tailored solutions that
-                help our clients succeed online.
+                help our clients succeed online.`}
               </p>
             </div>
             <div className="grid gap-6">
@@ -33,8 +33,8 @@ export default function Component() {
                   <h3 className="text-lg font-bold">Sofia Davis</h3>
                   <p className="text-gray-500 dark:text-gray-400">Lead Web Developer</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    With over 8 years of experience, Sofia is our resident expert in front-end development, specializing
-                    in responsive design and modern JavaScript frameworks.
+                    {` With over 8 years of experience, Sofia is our resident expert in front-end development, specializing
+                    in responsive design and modern JavaScript frameworks.`}
                   </p>
                   <div className="flex items-center gap-2">
                     <CodeIcon className="h-4 w-4 text-gray-500 dark:text-gray-400" />
@@ -53,8 +53,8 @@ export default function Component() {
                   <h3 className="text-lg font-bold">Jackson Lee</h3>
                   <p className="text-gray-500 dark:text-gray-400">Backend Developer</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Jackson is our backend specialist, with a strong understanding of server-side technologies and
-                    database management. He ensures our web applications are secure, scalable, and efficient.
+                    {`Jackson is our backend specialist, with a strong understanding of server-side technologies and
+                    database management. He ensures our web applications are secure, scalable, and efficient.`}
                   </p>
                   <div className="flex items-center gap-2">
                     <CodeIcon className="h-4 w-4 text-gray-500 dark:text-gray-400" />
@@ -73,9 +73,9 @@ export default function Component() {
                   <h3 className="text-lg font-bold">Emily Chen</h3>
                   <p className="text-gray-500 dark:text-gray-400">UI/UX Designer</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Emily is our in-house design expert, with a keen eye for user experience and a passion for creating
+                    {` Emily is our in-house design expert, with a keen eye for user experience and a passion for creating
                     visually stunning interfaces. She works closely with our developers to ensure pixel-perfect
-                    implementation.
+                    implementation.`}
                   </p>
                   <div className="flex items-center gap-2">
                     <TypeIcon className="h-4 w-4 text-gray-500 dark:text-gray-400" />
@@ -94,8 +94,8 @@ export default function Component() {
                   <h3 className="text-lg font-bold">David Kim</h3>
                   <p className="text-gray-500 dark:text-gray-400">Project Manager</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    David is our seasoned project manager, ensuring our development process runs smoothly and our
-                    clients' needs are met. He's an expert in agile methodologies and client communication.
+                    {` David is our seasoned project manager, ensuring our development process runs smoothly and our
+                    clients' needs are met. He's an expert in agile methodologies and client communication.`}
                   </p>
                   <div className="flex items-center gap-2">
                     <ProjectorIcon className="h-4 w-4 text-gray-500 dark:text-gray-400" />

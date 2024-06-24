@@ -12,13 +12,13 @@ export default function aboutUs() {
               About Our Web Development Agency
             </h2>
             <p className="mt-4 text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We are a team of passionate web developers dedicated to crafting exceptional digital experiences. With
+              {`  We are a team of passionate web developers dedicated to crafting exceptional digital experiences. With
               years of expertise, we specialize in creating custom, responsive websites that not only look great but
-              also deliver measurable results for our clients.
+              also deliver measurable results for our clients.`}
             </p>
             <p className="mt-4 text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our mission is to empower businesses of all sizes to establish a strong online presence and achieve their
-              digital goals. We believe in the power of collaboration, innovation, and a relentless focus on quality.
+              {`  Our mission is to empower businesses of all sizes to establish a strong online presence and achieve their
+              digital goals. We believe in the power of collaboration, innovation, and a relentless focus on quality.`}
             </p>
           </div>
           <div className="grid gap-8">

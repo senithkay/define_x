@@ -11,7 +11,7 @@ export default function Component() {
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tighter">Get in Touch</h1>
           <p className="mt-3 text-gray-500 dark:text-gray-400 max-w-[600px] mx-auto">
-            Need a custom website or web application built? Let's chat about your project.
+            {` Need a custom website or web application built? Let's chat about your project.`}
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
