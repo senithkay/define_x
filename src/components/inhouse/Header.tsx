@@ -3,13 +3,14 @@ import { JSX, SVGProps } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+
+
 function Header() {
   return (
     <div>
            <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between">
           <Link className="flex items-center gap-2" href="#">
-            <CodeIcon className="h-6 w-6"/>
-            <span className="text-xl font-bold">DefineX</span>
+            <span className="text-xl font-bold company-name text-[30px]">{'<> T minus 4'}</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link className="hover:underline" href="/">
