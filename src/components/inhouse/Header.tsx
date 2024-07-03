@@ -16,16 +16,16 @@ function Header() {
             <Link className="hover:underline" href="/">
               Home
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="/services">
               Services
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="/portfolio">
               Portfolio
             </Link>
             <Link className="hover:underline" href="../team">
               Team
             </Link>
-            <Link className="hover:underline" href="">
+            <Link className="hover:underline" href="/features">
               Features
             </Link>
             <Link className="hover:underline" href="../contactUs">
